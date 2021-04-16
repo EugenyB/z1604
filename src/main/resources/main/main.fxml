@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <children>
+      <TextField fx:id="numOfRowField" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="212.0" promptText="number of row" />
+      <Button layoutX="237.0" layoutY="14.0" mnemonicParsing="false" onAction="#calculate" prefHeight="25.0" prefWidth="63.0" text="Calc" />
+      <TextArea fx:id="textArea" layoutX="14.0" layoutY="46.0" prefHeight="344.0" prefWidth="285.0" />
+   </children>
+</AnchorPane>
